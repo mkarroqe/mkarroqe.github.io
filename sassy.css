@@ -1,17 +1,27 @@
 /*
 	 /\
  	/__\   ooh triangle
-
 	personal website????????? personal website.
 	by ya girl Mary Karroqe
 */
 body {
 	text-align: center;
-	padding-top: 20%;
+	padding-top: 10%;
 	background-color: #000000;
 	color: #d3d3d3;
-	font-family: 'Work Sans', sans-serif;			
+	font-family: 'Work Sans', sans-serif;		
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: white;
 }
 .sass {
+	font-size: 30px;
+}
+#triangle {
+	font-size: 20px;
+}
+.navish {
+	margin: auto;
 	font-size: 20px;
 }
