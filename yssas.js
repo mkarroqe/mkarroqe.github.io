@@ -1,7 +1,6 @@
 /*
 	 /\
  	/__\   ooh triangle
-
 	personal website????????? personal website.
 	by ya girl Mary Karroqe
 */
