@@ -6,10 +6,11 @@
 */
 body {
 	text-align: center;
-	padding-top: 10%;
 	background-color: #000000;
 	color: #d3d3d3;
-	font-family: 'Work Sans', sans-serif;		
+	font-family: 'Work Sans', sans-serif;	
+	font-weight: 100;	
+	margin: 0;
 }
 a:link, a:visited {
 	text-decoration: none;
@@ -24,4 +25,41 @@ a:link, a:visited {
 .navish {
 	margin: auto;
 	font-size: 20px;
+}
+.header {
+	text-align: left;
+	background-color: black;
+	width: 100%;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.header .title {
+	font-weight: 300;
+	text-align: center;
+}
+.portfolio {
+	text-align: left;
+	width: 100%;
+	background-color: white;
+	color: black;
+	padding-top: 20px;
+}
+.portfolio a {
+	color: black;
+}
+.pitems {
+	margin-left: 35px;
+}
+.col {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+.gitty {
+	width: 100%;
+	background-color: gray;
+	padding-left: 35px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	text-align: center;
 }
