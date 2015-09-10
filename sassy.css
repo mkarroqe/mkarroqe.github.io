@@ -49,6 +49,7 @@ a:link, a:visited {
 }
 .pitems {
 	margin-left: 35px;
+	color: black;
 }
 .col {
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
