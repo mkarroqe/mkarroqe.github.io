@@ -1,7 +1,12 @@
 /*
 	 /\
+<<<<<<< HEAD
  	/__\   ooh triangle
 	personal website????????? personal website.
+=======
+ 	/__\  116
+
+>>>>>>> master
 	by ya girl Mary Karroqe
 */
 function explainy() {
