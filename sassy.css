@@ -1,7 +1,7 @@
 /*
 	 /\
- 	/__\   ooh triangle
-	personal website????????? personal website.
+ 	/__\  116
+
 	by ya girl Mary Karroqe
 */
 body {
@@ -10,57 +10,132 @@ body {
 	color: #d3d3d3;
 	font-family: 'Work Sans', sans-serif;	
 	font-weight: 100;	
-	margin: 0;
+	margin: 10;
+	font-size: 30px;
+}
+hr {
+	width: 50%;
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+ul {
+	list-style-type: none;
+}
+li {
+	font-size: 30px;
+	text-align: center;
+}
+.beeps li{
+	display: inline;
+	font-size: 35px;
+	text-align: justify;
+}
+li a:hover {
+	color: #ff4500;
 }
 a:link, a:visited {
 	text-decoration: none;
-	color: white;
+	color: #545454;
 }
 .sass {
-	font-size: 30px;
+	font-size: 80px;
 }
 #triangle {
-	font-size: 20px;
+	font-size: 50px;
 }
-.navish {
-	margin: auto;
-	font-size: 20px;
+#bio {
+	font-size: 30px;
+	line-height: 10px;
 }
-.header {
-	text-align: left;
-	background-color: black;
-	width: 100%;
-	padding-top: 35px;
-	padding-bottom: 35px;
+#hthree {
+	font-size: 40px;
+	line-height: 10px;
 }
-.header .title {
-	font-weight: 300;
-	text-align: center;
+/* icons */
+@font-face {
+    font-family: 'si';
+    src: url('icons/socicon.eot');
+    src: url('icons/socicon.eot?#iefix') format('embedded-opentype'),
+         url('icons/socicon.woff') format('woff'),
+         url('icons/socicon.ttf') format('truetype'),
+         url('icons/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
 }
-.portfolio {
-	text-align: left;
-	width: 100%;
-	background-color: white;
-	color: black;
-	padding-top: 20px;
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(icons/socicon.svg) format(svg);
+    }
 }
-.portfolio a {
-	color: black;
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
 }
-.pitems {
-	margin-left: 35px;
-	color: black;
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
 }
-.col {
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 7px;
+    color: #ffffff;
+    background-color: none;
 }
-.gitty {
-	width: 100%;
-	background-color: gray;
-	padding-left: 35px;
-	padding-top: 35px;
-	padding-bottom: 35px;
-	text-align: center;
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-github {
+    background-color: #5380c0;
+}
+.soc-github:before {
+    content:'Q';
+}
+.soc-linkedin {
+    background-color: #3371b7;
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-email1 {
+    background-color: #578AD6;
+}
+.soc-email1:before {
+    content:'<';
+}
+.footer {
+	padding-bottom: 10%;
 }
