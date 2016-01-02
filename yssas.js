@@ -1,7 +1,7 @@
 /*
 	 /\
- 	/__\   ooh triangle
-	personal website????????? personal website.
+ 	/__\  116
+
 	by ya girl Mary Karroqe
 */
 function explainy() {

@@ -1,7 +1,7 @@
 /*
 	 /\
- 	/__\   ooh triangle
-	personal website????????? personal website.
+ 	/__\  116
+
 	by ya girl Mary Karroqe
 */
 body {
@@ -17,10 +17,10 @@ a:link, a:visited {
 	color: white;
 }
 .sass {
-	font-size: 30px;
+	font-size: 60px;
 }
 #triangle {
-	font-size: 20px;
+	font-size: 50px;
 }
 .navish {
 	margin: auto;
@@ -64,3 +64,89 @@ a:link, a:visited {
 	padding-bottom: 35px;
 	text-align: center;
 }
+<<<<<<< HEAD
+=======
+/* icons */
+@font-face {
+    font-family: 'si';
+    src: url('icons/socicon.eot');
+    src: url('icons/socicon.eot?#iefix') format('embedded-opentype'),
+         url('icons/socicon.woff') format('woff'),
+         url('icons/socicon.ttf') format('truetype'),
+         url('icons/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(icons/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 13px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 7px;
+    color: #ffffff;
+    background-color: none;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-github {
+    background-color: #5380c0;
+}
+.soc-github:before {
+    content:'Q';
+}
+.soc-linkedin {
+    background-color: #3371b7;
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-email1 {
+    background-color: #578AD6;
+}
+.soc-email1:before {
+    content:'<';
+}
+>>>>>>> master
