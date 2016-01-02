@@ -10,62 +10,54 @@ body {
 	color: #d3d3d3;
 	font-family: 'Work Sans', sans-serif;	
 	font-weight: 100;	
-	margin: 0;
+	margin: 10;
+	font-size: 30px;
+}
+hr {
+	width: 50%;
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+ul {
+	list-style-type: none;
+}
+li {
+	font-size: 30px;
+	text-align: center;
+}
+.beeps li{
+	display: inline;
+	font-size: 35px;
+	text-align: justify;
+}
+li a:hover {
+	color: #ff4500;
 }
 a:link, a:visited {
 	text-decoration: none;
-	color: white;
+	color: #545454;
 }
 .sass {
-	font-size: 60px;
+	font-size: 80px;
 }
 #triangle {
 	font-size: 50px;
 }
-.navish {
-	margin: auto;
-	font-size: 20px;
+#bio {
+	font-size: 30px;
+	line-height: 10px;
 }
-.header {
-	text-align: left;
-	background-color: black;
-	width: 100%;
-	padding-top: 35px;
-	padding-bottom: 35px;
-}
-.header .title {
-	font-weight: 300;
-	text-align: center;
-}
-.portfolio {
-	text-align: left;
-	width: 100%;
-	background-color: white;
-	color: black;
-	padding-top: 20px;
-}
-.portfolio a {
-	color: black;
-}
-.pitems {
-	margin-left: 35px;
-	color: black;
-}
-.col {
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-}
-.gitty {
-	width: 100%;
-	background-color: gray;
-	padding-left: 35px;
-	padding-top: 35px;
-	padding-bottom: 35px;
-	text-align: center;
+#hthree {
+	font-size: 40px;
+	line-height: 10px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> master
 /* icons */
 @font-face {
     font-family: 'si';
@@ -149,4 +141,6 @@ a:link, a:visited {
 .soc-email1:before {
     content:'<';
 }
->>>>>>> master
+.footer {
+	padding-bottom: 10%;
+}
