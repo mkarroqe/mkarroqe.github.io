@@ -76,8 +76,6 @@ a:link, a:visited {
 	padding-bottom: 35px;
 	text-align: center;
 }
-<<<<<<< HEAD
-=======
 /* icons */
 @font-face {
     font-family: 'si';
@@ -161,4 +159,3 @@ a:link, a:visited {
 .soc-email1:before {
     content:'<';
 }
->>>>>>> master
