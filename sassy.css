@@ -135,6 +135,12 @@ a:link, a:visited {
 }
 .soc-email1:before {
     content:'<';
+<<<<<<< HEAD
+=======
+}
+.footer {
+	padding-bottom: 10%;
+>>>>>>> origin/mkarroqe-patch-1
 }
 .footer {
 	padding-bottom: 10%;
