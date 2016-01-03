@@ -32,12 +32,15 @@ li {
 	font-size: 35px;
 	text-align: justify;
 }
+#subhead {
+    color: #d3d3d3;
+}
 li a:hover {
 	color: #ff4500;
 }
 a:link, a:visited {
 	text-decoration: none;
-	color: #545454;
+	color: #737373;
 }
 .sass {
 	font-size: 80px;
@@ -135,12 +138,6 @@ a:link, a:visited {
 }
 .soc-email1:before {
     content:'<';
-<<<<<<< HEAD
-=======
-}
-.footer {
-	padding-bottom: 10%;
->>>>>>> origin/mkarroqe-patch-1
 }
 .footer {
 	padding-bottom: 10%;
