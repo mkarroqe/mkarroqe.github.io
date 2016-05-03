@@ -3,6 +3,7 @@
  	/__\  116
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  	
 =======
 
@@ -10,6 +11,9 @@
 =======
 
 >>>>>>> origin/mkarroqe-patch-1
+=======
+ 	
+>>>>>>> master
 	by ya girl Mary Karroqe
 */
 body {
@@ -148,6 +152,7 @@ a:link, a:visited {
     content:'<';
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 }
 .footer {
@@ -161,4 +166,9 @@ a:link, a:visited {
 }
 .footer {
 	padding-bottom: 10%;
+=======
+}
+.footer {
+	padding-bottom: 10%;
+>>>>>>> master
 }
