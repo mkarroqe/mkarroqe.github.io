@@ -1,7 +1,11 @@
 /*
 	 /\
  	/__\  116
+<<<<<<< HEAD
+ 	
+=======
 
+>>>>>>> origin/mkarroqe-patch-1
 	by ya girl Mary Karroqe
 */
 body {
@@ -32,15 +36,22 @@ li {
 	font-size: 35px;
 	text-align: justify;
 }
+<<<<<<< HEAD
 #subhead {
     color: #d3d3d3;
 }
+=======
+>>>>>>> origin/mkarroqe-patch-1
 li a:hover {
 	color: #ff4500;
 }
 a:link, a:visited {
 	text-decoration: none;
+<<<<<<< HEAD
 	color: #737373;
+=======
+	color: #545454;
+>>>>>>> origin/mkarroqe-patch-1
 }
 .sass {
 	font-size: 80px;
@@ -138,6 +149,12 @@ a:link, a:visited {
 }
 .soc-email1:before {
     content:'<';
+<<<<<<< HEAD
+=======
+}
+.footer {
+	padding-bottom: 10%;
+>>>>>>> origin/mkarroqe-patch-1
 }
 .footer {
 	padding-bottom: 10%;
