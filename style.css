@@ -1,0 +1,100 @@
+/* 
+	ya girl mk 
+*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,900');
+html {
+	overflow: hidden;
+}
+body {
+	/* words */
+	font-family: 'Roboto', sans-serif;
+	margin: 10%;
+
+}
+#name {
+	font-size: 120px;
+	float: top;
+	text-align: left;
+}
+.footer {
+	text-align: center;
+	float: left;
+}
+
+/* icons */
+@font-face {
+    font-family: 'si';
+    src: url('icons/socicon.eot');
+    src: url('icons/socicon.eot?#iefix') format('embedded-opentype'),
+         url('icons/socicon.woff') format('woff'),
+         url('icons/socicon.ttf') format('truetype'),
+         url('icons/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(icons/socicon.svg) format(svg);
+    }
+}
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 7px;
+    color: #ffffff;
+    background-color: none;
+}
+.soc-icon-last{
+    margin:0 !important;
+}
+.soc-github {
+    background-color: #000000;
+}
+.soc-github:before {
+    content:'Q';
+}
+.soc-linkedin {
+    background-color: #000000;
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-email1 {
+    background-color: #000000;
+}
+.soc-email1:before {
+    content:'<';
+}
