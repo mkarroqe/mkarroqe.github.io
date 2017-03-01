@@ -1,7 +1,7 @@
 /*
 	 /\
  	/__\  116
- 	
+
 	by ya girl Mary Karroqe
 */
 body {
@@ -35,12 +35,13 @@ li {
 #subhead {
     color: #d3d3d3;
 }
+
 li a:hover {
 	color: #ff4500;
 }
 a:link, a:visited {
 	text-decoration: none;
-	color: #737373;
+	color: #545454;
 }
 .sass {
 	font-size: 80px;
@@ -141,4 +142,12 @@ a:link, a:visited {
 }
 .footer {
 	padding-bottom: 10%;
+<<<<<<< HEAD
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/gh-pages
+=======
+}
+>>>>>>> origin/gh-pages
