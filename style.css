@@ -1,37 +1,17 @@
-/* 
-	ya girl mk 
+/*
+  ya friendly stem gal Mary Karroqe marketing herself wooo
 */
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,900');
-html {
-	overflow: hidden;
-}
+
 body {
-    font-family: "Lucida Console", "Lucida Sans Typewriter", monospace;    
-    margin-top: 10%;
-    background-color: black;
-    text-align: left;
-    color: green;
+	font-family: "Courier New", Courier, monospace;
 }
-#name {
-    font-size: 80px;
-    color: #7CFC00;
+.linky {
+	
 }
-#menu {
-    font-size: 30px;
-    color: gray;
-}
-#menu ul {
-    list-style-type: none;
+.linky:hover {
+	font-weight: bold;	
+	font-style: italic;
 }
 a {
-    color: gray;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
-    color: #d3d3d3;
-}
-.footer {
-	text-align: center;
-	float: left;
+	text-decoration: none;
 }

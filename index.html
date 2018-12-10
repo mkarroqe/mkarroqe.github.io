@@ -1,48 +1,73 @@
 <!--
-	ya girl mk 
+  ya friendly stem gal Mary Karroqe marketing herself wooo
+  
+  Parallax adapted from keithclark.co.uk demo- thanks!
 -->
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>ya girl mk</title>
-		<!-- Bootstrap -->
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-		<!-- Font Awesome (for icons) -->
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-		<!-- Custom CSS -->
-		<link href="style.css" rel="stylesheet" type="text/css" />
-	</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>mk | stem gal</title>
+    <meta name="description" content="ya friendly stem gal, learning n growing">
+    <link rel="stylesheet" type="text/css" href="parallax.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
 
-	<body>
-		<div class="col-lg-12">
-			<div class="container" id="name">
-				<p>> mary <span onmouseover="explainy();" onmouseleave="plainy();" id="plain">karroqe</span></p>
-			</div>
-		</div>
-		<div class="col-lg-12">
-			<div class="container" id="menu">
-				<ul class="col-lg-12">
-					<li>
-						<a href="freelance.html"><i class="fa fa-hand-peace-o" aria-hidden="true"></i> Freelance Services</a>
-					</li>
-					<li>
-						<a href="projects.html"><i class="fa fa-flask" aria-hidden="true"></i> Projects</a>
-					</li>
-					<li>
-						<a href="mkresume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Resume</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		
-		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script>
-			function explainy() {
-				document.getElementById("plain").innerHTML = "(kah-roh-cheh)";
-			}
-			function plainy() {
-				document.getElementById("plain").innerHTML = "karroqe";
-			}
-		</script>
-	</body>
+  <body>
+    <div class="footer">
+      Mary Karroqe, ya friendly stem gal, 2018
+    </div>
+
+    <div class="parallax">
+      <div id="group1" class="parallax__group">
+        <div class="parallax__layer parallax__layer--base">
+          <div class="title">> stem gal<br/><br/>&#x1f331;</div>
+        </div>
+      </div>
+      <div id="group2" class="parallax__group">
+        <div class="parallax__layer parallax__layer--base">
+          <div class="title">Mary Karroqe, ya friendly stem gal, is trying to learn and grow by doing.</div>
+        </div>
+        <div class="parallax__layer parallax__layer--back">
+          <div>> i'm tired of coming into school everyday, falling into my sad little rut, memorizing instead of learning, consuming material without understanding its context, working towards something without being exposed to why and what applications it has. i'm tired of coming into school everyday, falling into my sad little rut, memorizing instead of learning, consuming material without understanding its context, working towards something without being exposed to why and what applications it has. i want to be excited to learn again. i want to build and create things without feeling restricted and contrained by the scope of a class. i want to be excited to learn again. // i'm tired of coming into school everyday, falling into my sad little rut, memorizing instead of learning, consuming material without understanding its context, working towards something without being exposed to why and what applications it has. i'm tired of coming into school everyday, falling into my sad little rut, memorizing instead of learning, consuming material without understanding its context, working towards something without being exposed to why and what applications it has. i want to be excited to learn again. i want to build and create things without feeling restricted and contrained by the scope of a class. i want to be excited to learn again. // i want to build and create things without feeling restricted and contrained by the scope of a class. i want to be excited to learn again. i want to be excited to learn again! </div>
+        </div>
+      </div>
+      <div id="group3" class="parallax__group">
+        <div class="parallax__layer parallax__layer--fore">
+          <div class="title">&nbsp;whomst? &#x1f440; &nbsp; </div>
+        </div>
+        <div class="parallax__layer parallax__layer--base">
+          <div class="title"><br/><br/>
+            > 3rd year comp sci major, math minor &#x1f424; <br/>
+            > general engineering teaching assistant <br/>
+            > boeing intern &#x1f325;
+          </div>
+        </div>
+      </div>
+      <div id="group4" class="parallax__group">
+        <div class="parallax__layer parallax__layer--base">
+          <div class="title">&nbsp; &#x1f4bb; there are so many things i want to learn! <a class="linky" href="https://www.youtube.com/channel/UC4fgAlfmUGhz6GwQk7kurWg?view_as=subscriber">come grow with me &#x1F449; </a> &#x1f331; </div>
+        </div>
+    </div>
+
+    <script>
+      var debugInput = document.querySelector("input");
+      function updateDebugState() {
+          document.body.classList.toggle('debug-on', debugInput.checked);
+      }
+      debugInput.addEventListener("click", updateDebugState);
+      updateDebugState();
+    </script>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-10812217-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+  </body>
 </html>
