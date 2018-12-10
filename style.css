@@ -1,100 +1,77 @@
-/* 
-	ya girl mk 
-*/
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,900');
-html {
-	overflow: hidden;
+/*	Mary Karroqe */
+html, body {
+	height: 100%;
 }
 body {
-	/* words */
-	font-family: 'Roboto', sans-serif;
-	margin: 10%;
-
-}
-#name {
-	font-size: 120px;
-	float: top;
-	text-align: left;
-}
-.footer {
 	text-align: center;
-	float: left;
+	font-family: 'Work Sans', sans-serif;	
+	color: #222222;	
 }
-
-/* icons */
-@font-face {
-    font-family: 'si';
-    src: url('icons/socicon.eot');
-    src: url('icons/socicon.eot?#iefix') format('embedded-opentype'),
-         url('icons/socicon.woff') format('woff'),
-         url('icons/socicon.ttf') format('truetype'),
-         url('icons/socicon.svg#icomoonregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
- 
+.viewport {
+	height: 100%;
+	width: 100%;
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    @font-face {
-        font-family:si;
-        src: url(icons/socicon.svg) format(svg);
-    }
+.webs {
+	color: #FFFFFF;
 }
-.soc {
-    overflow:hidden;
-    margin:0; padding:0;
-    list-style:none;
+/* hover: D6D5EF; */
+.top {
+	height: 50%;
+	background-color: #A2A1BA;
 }
-.soc li {
-    display:inline-block;
-    *display:inline;
-    zoom:1;
+/* hover: FBF9FF; */
+.bottom {
+	height: 50%;
+	background-color: #DBCDC6;
 }
-.soc li a {
-    font-family:si!important;
-    font-style:normal;
-    font-weight:400;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-    -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
-    -ms-box-sizing:border-box;
-    -o-box-sizing:border-box;
-    box-sizing:border-box;
-    overflow:hidden;
-    text-decoration:none;
-    text-align:center;
-    display:block;
-    position: relative;
-    z-index: 1;
-    width: 34px;
-    height: 34px;
-    line-height: 34px;
-    font-size: 16px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    margin-right: 7px;
-    color: #ffffff;
-    background-color: none;
+.top-head {
+	height: 40%;
+	background-color: #A2A1BA;
 }
-.soc-icon-last{
-    margin:0 !important;
+.top2 {
+	height: 30%;
+	background-color: #A2A1BA;
 }
-.soc-github {
-    background-color: #000000;
+.bottom2 {
+	height: 30%;
+	background-color: #DBCDC6;
 }
-.soc-github:before {
-    content:'Q';
+.nw {
+	height: 100%;
+	background-color: #3A7CA5;
 }
-.soc-linkedin {
-    background-color: #000000;
+.ne {
+	height: 100%;
+	background-color: #2B59C3;
 }
-.soc-linkedin:before {
-    content:'j';
+.sw {
+	height: 100%;
+	background-color: #253C78;
 }
-.soc-email1 {
-    background-color: #000000;
+.se {
+	height: 100%;
+	background-color: #122C34;
 }
-.soc-email1:before {
-    content:'<';
+h2 {
+	padding-top: 100px;
+	font-size: 50px;
+	font-weight: 300;
+}
+a {
+	color: inherit;
+}
+a:hover {
+	color: #FBF9FF;
+	text-decoration: none;
+}
+.btn {
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #EAF2EF; 
+	display:none;
+	color: black;
+}
+.btn:hover {
+	background-color: white;
+	color: black;
 }

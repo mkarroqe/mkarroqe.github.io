@@ -1,62 +1,26 @@
-/*
-	 /\
- 	/__\  116
-
-	by ya girl Mary Karroqe
+/* 
+	ya girl mk 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,900');
+html {
+	overflow: hidden;
+}
 body {
+	/* words */
+	font-family: 'Roboto', sans-serif;
+	margin: 10%;
+
+}
+#name {
+	font-size: 120px;
+	float: top;
+	text-align: left;
+}
+.footer {
 	text-align: center;
-	background-color: #000000;
-	color: #d3d3d3;
-	font-family: 'Work Sans', sans-serif;	
-	font-weight: 100;	
-	margin: 10;
-	font-size: 30px;
-}
-hr {
-	width: 50%;
-	border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
-}
-ul {
-	list-style-type: none;
-}
-li {
-	font-size: 30px;
-	text-align: center;
-}
-.beeps li{
-	display: inline;
-	font-size: 35px;
-	text-align: justify;
-}
-#subhead {
-    color: #d3d3d3;
+	float: left;
 }
 
-li a:hover {
-	color: #ff4500;
-}
-a:link, a:visited {
-	text-decoration: none;
-	color: #545454;
-}
-.sass {
-	font-size: 80px;
-}
-#triangle {
-	font-size: 50px;
-}
-#bio {
-	font-size: 30px;
-	line-height: 10px;
-}
-#hthree {
-	font-size: 40px;
-	line-height: 10px;
-}
 /* icons */
 @font-face {
     font-family: 'si';
@@ -69,26 +33,22 @@ a:link, a:visited {
     font-style: normal;
  
 }
- 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     @font-face {
         font-family:si;
         src: url(icons/socicon.svg) format(svg);
     }
 }
-
 .soc {
     overflow:hidden;
     margin:0; padding:0;
     list-style:none;
 }
-
 .soc li {
     display:inline-block;
     *display:inline;
     zoom:1;
 }
-
 .soc li a {
     font-family:si!important;
     font-style:normal;
@@ -106,10 +66,10 @@ a:link, a:visited {
     display:block;
     position: relative;
     z-index: 1;
-    width: 24px;
-    height: 24px;
-    line-height: 24px;
-    font-size: 13px;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 16px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -117,37 +77,24 @@ a:link, a:visited {
     color: #ffffff;
     background-color: none;
 }
-
 .soc-icon-last{
     margin:0 !important;
 }
-
 .soc-github {
-    background-color: #5380c0;
+    background-color: #000000;
 }
 .soc-github:before {
     content:'Q';
 }
 .soc-linkedin {
-    background-color: #3371b7;
+    background-color: #000000;
 }
 .soc-linkedin:before {
     content:'j';
 }
 .soc-email1 {
-    background-color: #578AD6;
+    background-color: #000000;
 }
 .soc-email1:before {
     content:'<';
 }
-.footer {
-	padding-bottom: 10%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> origin/gh-pages
-=======
-}
->>>>>>> origin/gh-pages
