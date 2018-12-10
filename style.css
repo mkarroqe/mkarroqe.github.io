@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*	Mary Karroqe */
 html, body {
 	height: 100%;
@@ -74,4 +75,22 @@ a:hover {
 .btn:hover {
 	background-color: white;
 	color: black;
+=======
+/*
+  ya friendly stem gal Mary Karroqe marketing herself wooo
+*/
+
+body {
+	font-family: "Courier New", Courier, monospace;
+}
+.linky {
+	
+}
+.linky:hover {
+	font-weight: bold;	
+	font-style: italic;
+}
+a {
+	text-decoration: none;
+>>>>>>> master
 }
