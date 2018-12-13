@@ -8,7 +8,7 @@
     --------------------------------------------- */
 
     .parallax {
-      height: 500px; /* fallback for older browsers */
+      /*height: 500px;  fallback for older browsers */
       height: 100vh;
       overflow-x: hidden;
       overflow-y: auto;
@@ -18,7 +18,7 @@
 
     .parallax__group {
       position: relative;
-      height: 500px; /* fallback for older browsers */
+      /*height: 500px;  fallback for older browsers */
       height: 100vh;
       -webkit-transform-style: preserve-3d;
       transform-style: preserve-3d;
@@ -61,6 +61,7 @@
 
     body, html {
       overflow: hidden;
+      background: rgb(123,210,102);
     }
 
     * {
@@ -86,7 +87,7 @@
     --------------------------------------------- */
 
     #group1 {
-      z-index: 5; /* slide over group 2 */
+      z-index: 4; /* slide over group 2 */
     }
     #group1 .parallax__layer--base {
       background: rgb(5,140,66);
@@ -103,6 +104,7 @@
       background: rgb(123,210,102);
       color: #e3e3e3;
       position: relative;
+      height: 100vh;
       overflow: hidden;
     }
 
