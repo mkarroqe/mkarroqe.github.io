@@ -5,7 +5,7 @@
 body {
 	font-family: "Courier New", Courier, monospace;
 }
-.linky:hover {
+a:hover {
 	font-weight: bold;	
 	font-style: italic;
 }

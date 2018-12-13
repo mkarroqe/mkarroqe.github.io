@@ -4,6 +4,31 @@
   Parallax adapted from keithclark.co.uk demo- thanks!
 */
 
+/* Navigation */
+.nav {
+  font-style: underline;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.nav li {
+  display: inline;
+  float: left;
+}
+.nav a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav a:hover {
+  font-style: italic;
+}
+
+
 /* Parallax base styles
     --------------------------------------------- */
 
@@ -61,7 +86,8 @@
 
     body, html {
       overflow: hidden;
-      background: rgb(123,210,102);
+      /*background: rgb(123,210,102);*/
+      background-color: #C2F9BB;
     }
 
     * {
